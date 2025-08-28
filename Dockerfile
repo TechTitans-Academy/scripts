@@ -5,7 +5,7 @@ FROM ubuntu
 RUN apt-get update && apt-get install -y apache2
 
 # Copy a custom index.html
-# COPY index.html /var/www/html/index.html
+COPY index.html /var/www/html/index.html
 
 # Expose port 80
 EXPOSE 80
