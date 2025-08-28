@@ -10,8 +10,5 @@ COPY index.html /var/www/html/
 # Expose port 80
 EXPOSE 80
 
-#Starting service
-service apache2 start
-
 # Start Apache in the foreground
 CMD ["apachectl", "-D", "FOREGROUND"]
