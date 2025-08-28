@@ -1,5 +1,5 @@
 services:
   web:
-    build: .
+    image: simpleweb
     ports:
       - "85:80"
